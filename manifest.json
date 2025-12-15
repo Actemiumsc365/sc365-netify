@@ -329,6 +329,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/posts/supplychain365-release-planning.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/posts/supplychain365-release-planning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
