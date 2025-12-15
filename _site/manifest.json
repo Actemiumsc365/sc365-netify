@@ -222,6 +222,36 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "admin/SC365.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/SC365.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/config.yml",
+      "output": {
+        "resource": {
+          "relative_path": "admin/config.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/index.html",
+      "output": {
+        "resource": {
+          "relative_path": "admin/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {

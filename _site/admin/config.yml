@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: Actemiumsc365/sc365-netify
+  branch: main
+  local_backend: true
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
