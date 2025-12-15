@@ -157,6 +157,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Content/Modules/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Content/Modules/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Content/Modules/introduction.md",
       "output": {
         ".html": {
@@ -213,10 +223,33 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Content/posts/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Content/posts/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Content/posts/my-first-post.md",
       "output": {
         ".html": {
           "relative_path": "Content/posts/my-first-post.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Content/posts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Content/posts/toc.html"
+        },
+        ".json": {
+          "relative_path": "Content/posts/toc.json"
         }
       },
       "version": ""

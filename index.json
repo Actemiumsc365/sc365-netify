@@ -39,6 +39,11 @@
     "title": "Getting Started | SC365 Docs",
     "summary": "Getting Started"
   },
+  "Content/Modules/index.html": {
+    "href": "Content/Modules/index.html",
+    "title": "SC365 Modules | SC365 Docs",
+    "summary": "System Modules Explore the technical documentation for each module. Core Modules Getting Started (Add links to specific modules here as you create them)"
+  },
   "Content/Modules/introduction.html": {
     "href": "Content/Modules/introduction.html",
     "title": "Introduction | SC365 Docs",
@@ -53,6 +58,11 @@
     "href": "Content/index.html",
     "title": "Home | SC365 Docs",
     "summary": "Welcome to SC365 Supplychain365 Knowledge base Whether you are starting from scratch or scaling up, our documentation provides the architecture, APIs, and guides you need. Start learning Explore Modules Explore ReleaseNotes \uD83D\uDE80 Getting Started Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module. Getting Started → \uD83D\uDE80 Modules Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module. Start Modules → \uD83D\uDE80 Release notes Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module. Start Release notes →"
+  },
+  "Content/posts/index.html": {
+    "href": "Content/posts/index.html",
+    "title": "Latest Updates | SC365 Docs",
+    "summary": "Latest Updates & Articles Welcome to the news section. Here you will find the latest announcements and guides. Available Posts My First Manual Post - (Read about our first update) (New posts will appear here when you add them to the menu)"
   },
   "Content/posts/my-first-post.html": {
     "href": "Content/posts/my-first-post.html",
@@ -77,6 +87,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Welcome to SC365 Documentation | SC365 Docs",
-    "summary": "Welcome to SC365 Documentation Everything you need to know about Supplychain365. Quick Links Getting Started - Installation and setup guides. Modules - detailed module documentation. Latest Posts - Read our latest updates and articles. Recent Updates Check out the latest news in our Posts section."
+    "summary": "Welcome to SC365 Documentation Everything you need to know about Supplychain365. Quick Links Getting Started - Installation and setup guides. Modules - Detailed module documentation. Latest Posts - Read our latest updates and articles. Recent Updates Check out the latest news in our Posts section."
   }
 }

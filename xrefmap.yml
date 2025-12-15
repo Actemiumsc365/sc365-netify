@@ -1,3 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: modules-index
+  name: SC365 Modules
+  href: Content/Modules/index.html
+- uid: posts-index
+  name: Latest Updates
+  href: Content/posts/index.html
