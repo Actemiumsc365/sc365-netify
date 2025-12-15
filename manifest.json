@@ -243,30 +243,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "admin/dash.html",
+      "source_relative_path": "admin/index.html",
       "output": {
         "resource": {
-          "relative_path": "admin/dash.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/local.html",
-      "output": {
-        "resource": {
-          "relative_path": "admin/local.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/old-index.html",
-      "output": {
-        "resource": {
-          "relative_path": "admin/old-index.html"
+          "relative_path": "admin/index.html"
         }
       },
       "version": ""
@@ -290,16 +270,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "content/posts/supplychain365-general-information.md",
-      "output": {
-        ".html": {
-          "relative_path": "content/posts/supplychain365-general-information.html"
         }
       },
       "version": ""
