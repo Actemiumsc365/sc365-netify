@@ -276,6 +276,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/posts/supplychain365-general-information.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/posts/supplychain365-general-information.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
