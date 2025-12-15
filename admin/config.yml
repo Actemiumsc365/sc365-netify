@@ -51,7 +51,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   
-  - name: "settings"
+  - name: "settings-menu"
     label: "Menu Structure"
     files:
       - file: "toc.yml"
