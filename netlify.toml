@@ -1,0 +1,6 @@
+[build]
+  command = "bash run-build.sh"
+  publish = "_site"
+
+[context.production.environment]
+  DOTNET_CLI_TELEMETRY_OPTOUT = "1"

@@ -1,0 +1,10 @@
+- name: Home
+  href: content/index.md
+- name: Components
+  href: content/Components/index.md
+- name: GettingStarted
+  href: content/GettingStarted/index.md
+- name: Modules
+  href: content/Modules/index.md
+- name: ReleaseNotes
+  href: content/ReleaseNotes/index.md
