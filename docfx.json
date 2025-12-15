@@ -12,6 +12,7 @@
     ],
     "resource": [
       { "files": ["images/**"] },
+	  { "files": ["admin/**"] },
       { "files": ["SC365.png"] }  
     ],
     "output": "_site",
