@@ -3,13 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SupplyChain365 Manager</title>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <title>SupplyChain365 Manager (Debug Mode)</title>
+  
+  <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
 </head>
 <body>
+  <h2 style="font-family: sans-serif; color: #333; text-align: center; margin-top: 50px;">
+    Loading Dashboard...
+  </h2>
+  <div id="debug-console" style="background: #f0f0f0; border: 1px solid #ccc; padding: 20px; margin: 20px; font-family: monospace; color: darkred;">
+    </div>
+
   <script>
-    // This creates the "WordPress" look and feel
-    CMS.init(); 
+    // 1. Catch and print any hidden errors to the screen
+    window.onerror = function(message, source, lineno, colno, error) {
+      var log = document.getElementById('debug-console');
+      log.innerHTML += "<p><strong>🛑 CRITICAL ERROR:</strong> " + message + "</p>";
+      log.innerHTML += "<p>Location: " + source + ":" + lineno + "</p>";
+    };
+
+    // 2. Try to start the CMS manually and report success/fail
+    try {
+      console.log("Attempting to initialize CMS...");
+      // CMS.init() isn't strictly needed as the script auto-runs, 
+      // but this helps us check if the script loaded at all.
+      if (typeof CMS === 'undefined') {
+        throw new Error("The CMS Script failed to load from unpkg.com");
+      } else {
+        document.getElementById('debug-console').innerHTML += "<p style='color:green'>✅ CMS Script loaded successfully.</p>";
+        document.getElementById('debug-console').innerHTML += "<p style='color:blue'>ℹ️ Reading config.yml...</p>";
+      }
+    } catch (e) {
+      document.getElementById('debug-console').innerHTML += "<p><strong>💥 STARTUP CRASH:</strong> " + e.message + "</p>";
+    }
   </script>
 </body>
 </html>
