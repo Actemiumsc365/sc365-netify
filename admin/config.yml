@@ -28,6 +28,18 @@ collections:
       
       # This is the Main Editor (Freshdesk style)
       - {label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "settings"
+    label: "Site Structure"
+    files:
+      - file: "toc.yml"
+        label: "Top Menu (TOC)"
+        name: "top_menu"
+        fields:
+          - {label: "Menu Items", name: "items", widget: "list", fields: [
+              {label: "Name", name: "name", widget: "string"},
+              {label: "Link (Folder/File.md)", name: "href", widget: "string"}
+            ]}
 
   - name: "modules"
     label: "Modules"
