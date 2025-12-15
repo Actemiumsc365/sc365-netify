@@ -286,6 +286,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/posts/supplychain365-user-license-agreement.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/posts/supplychain365-user-license-agreement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
