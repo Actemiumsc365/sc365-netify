@@ -212,6 +212,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "Content/posts/my-first-post.md",
+      "output": {
+        ".html": {
+          "relative_path": "Content/posts/my-first-post.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "SC365.png",
       "output": {
@@ -270,26 +280,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "content/posts/supplychain365-general-information.md",
-      "output": {
-        ".html": {
-          "relative_path": "content/posts/supplychain365-general-information.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "content/posts/supplychain365-user-license-agreement.md",
-      "output": {
-        ".html": {
-          "relative_path": "content/posts/supplychain365-user-license-agreement.html"
         }
       },
       "version": ""
