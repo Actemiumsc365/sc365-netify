@@ -1,6 +1,2 @@
-- name: Home
-  href: index.md
-- name: Knowledge Base
-  href: docs/
-- name: Release Notes
-  href: api/
+- name: My New Page
+  href: my-new-post.md
