@@ -286,6 +286,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/posts/general-information-about-license-plate.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/posts/general-information-about-license-plate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
