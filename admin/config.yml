@@ -1,35 +1,16 @@
 backend:
   name: git-gateway
-  branch: main # The branch where changes are saved
+  branch: main
 
-media_folder: "images" # Where images are stored
+media_folder: "images"
 public_folder: "images"
 
-# This hides the "Draft" switch to keep it simple
-publish_mode: editorial_workflow
+publish_mode: simple
 
 collections:
   - name: "getting_started"
     label: "Getting Started"
     folder: "content/getting-started"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "modules"
-    label: "Modules"
-    folder: "content/modules"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      
-  - name: "general"
-    label: "General Info"
-    folder: "content/general-information"
     create: true
     slug: "{{slug}}"
     fields:
