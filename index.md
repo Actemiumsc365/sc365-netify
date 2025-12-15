@@ -1,78 +1,19 @@
 ---
-title: Home
+_layout: landing
 ---
 
-<div class="ms-hero">
-  <div class="hero-container">
-    <span class="hero-eyebrow">Welcome to SC365</span>
-    <h1 class="hero-title">Supplychain365 Knowledge base</h1>
-    <p class="hero-desc">
-      Whether you are starting from scratch or scaling up, our documentation provides the architecture, APIs, and guides you need.
-    </p>
-    <div style="display: flex; gap: 12px;">
-      <a href="GettingStarted/index.html" class="btn-fluent btn-primary">Start learning</a>
-      <a href="Modules/index.html" class="btn-fluent btn-secondary">Explore Modules</a>
-	  <a href="ReleaseNotes/index.html" class="btn-fluent btn-secondary">Explore ReleaseNotes</a>
-    </div>
-  </div>
-</div>
+# Welcome to SC365 Documentation
 
-<div class="ms-grid">
+Everything you need to know about Supplychain365.
 
-  <a href="GettingStarted/index.html" class="learn-card">
-    <div class="card-icon" style="color: #0078d4; background: #e0f2ff;">🚀</div>
-    <div class="card-title">Getting Started</div>
-    <div class="card-text">
-      Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module.
-    </div>
-    <div class="card-link">Getting Started →</div>
-  </a>
+## Quick Links
 
-  <a href="Modules/index.html" class="learn-card">
-    <div class="card-icon" style="color: #0078d4; background: #e0f2ff;">🚀</div>
-    <div class="card-title">Modules</div>
-    <div class="card-text">
-      Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module.
-    </div>
-    <div class="card-link">Start Modules →</div>
-  </a>
+- [**Getting Started**](content/getting-started/toc.yml) - Installation and setup guides.
+- [**Modules**](content/modules/toc.yml) - detailed module documentation.
+- [**Latest Posts**](content/posts/toc.yml) - Read our latest updates and articles.
 
-  <a href="ReleaseNotes/index.html" class="learn-card">
-    <div class="card-icon" style="color: #0078d4; background: #e0f2ff;">🚀</div>
-    <div class="card-title">Release notes</div>
-    <div class="card-text">
-      Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module.
-    </div>
-    <div class="card-link">Start Release notes →</div>
-  </a>
-<!--
-  <a href="docs/getting-started.html" class="learn-card">
-    <div class="card-icon" style="color: #0078d4; background: #e0f2ff;">🚀</div>
-    <div class="card-title">Quick Start</div>
-    <div class="card-text">
-      Get up and running in minutes. Learn how to install the CLI, configure your environment, and deploy your first module.
-    </div>
-    <div class="card-link">Start tutorial →</div>
-  </a>
+---
 
-  <a href="api/index.html" class="learn-card">
-    <div class="card-icon" style="color: #9c27b0; background: #f9e6ff;">⚡</div>
-    <div class="card-title">API Reference</div>
-    <div class="card-text">
-      Complete documentation for all endpoints. Includes authentication, request parameters, and response examples.
-    </div>
-    <div class="card-link">View endpoints →</div>
-  </a>
+## Recent Updates
 
-  <a href="#" class="learn-card">
-    <div class="card-icon" style="color: #009688; background: #e0f2f1;">🛠</div>
-    <div class="card-title">Architecture</div>
-    <div class="card-text">
-      Understand the system design. Deep dive into microservices, database schema, and data flow diagrams.
-    </div>
-    <div class="card-link">View diagrams →</div>
-  </a>
--->
-</div>
-
-<br><br>
+Check out the latest news in our [Posts section](content/posts/toc.yml).
