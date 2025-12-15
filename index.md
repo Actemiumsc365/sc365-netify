@@ -8,9 +8,10 @@ Everything you need to know about Supplychain365.
 
 ## Quick Links
 
-- [**Getting Started**](content/getting-started/toc.yml) - Installation and setup guides.
-- [**Modules**](content/modules/toc.yml) - detailed module documentation.
-- [**Latest Posts**](content/posts/toc.yml) - Read our latest updates and articles.
+
+- [**Getting Started**](content/getting-started/index.md) - Installation and setup guides.
+- [**Modules**](content/modules/index.md) - Detailed module documentation.
+- [**Latest Posts**](content/posts/index.md) - Read our latest updates and articles.
 
 ---
 
