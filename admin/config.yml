@@ -1,64 +1,15 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Actemiumsc365/sc365-netify
   branch: main
-
-# 1. DRAG AND DROP SETUP
-# This tells the CMS where to put images when you drag them in.
-media_folder: "images"
+  local_backend: true
+media_folder: "static/images"
 public_folder: "/images"
-
-# 2. FRESHDESK STYLE WORKFLOW
-# 'simple' = Save button immediately publishes (Good for speed)
-# Change to 'editorial_workflow' if you want "Draft" and "Review" stages
-publish_mode: simple
-
-# 3. YOUR CONTENT SECTIONS
 collections:
-  - name: "getting_started"
-    label: "Getting Started"
-    folder: "content/getting-started"
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
     create: true
-    slug: "{{slug}}"
     fields:
-      # These fields make it look like a real Ticket/Article system
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text", hint: "Short summary for search results"}
-      - {label: "Author", name: "author", widget: "string", default: "Admin"}
-      - {label: "Category", name: "category", widget: "select", options: ["Installation", "Configuration", "Usage", "Troubleshooting"], required: false}
-      
-      # This is the Main Editor (Freshdesk style)
-      - {label: "Body", name: "body", widget: "markdown"}
-      
-  - name: "settings"
-    label: "Site Structure"
-    files:
-      - file: "toc.yml"
-        label: "Top Menu (TOC)"
-        name: "top_menu"
-        fields:
-          - {label: "Menu Items", name: "items", widget: "list", fields: [
-              {label: "Name", name: "name", widget: "string"},
-              {label: "Link (Folder/File.md)", name: "href", widget: "string"}
-            ]}
-
-  - name: "modules"
-    label: "Modules"
-    folder: "content/modules"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  
-  - name: "settings-menu"
-    label: "Menu Structure"
-    files:
-      - file: "toc.yml"
-        label: "Top Navigation Bar"
-        name: "top_menu"
-        fields:
-          - {label: "Menu Items", name: "items", widget: "list", fields: [
-              {label: "Name", name: "name", widget: "string"},
-              {label: "Link Address", name: "href", widget: "string"}
-            ]}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

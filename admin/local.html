@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORCE LOCAL DASHBOARD</title>
+  
+</head>
+<body>
+
+ <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // WE ARE FORCING THE CONFIG HERE.
+    // The browser cannot ignore this.
+    CMS.init({
+      config: {
+        backend: {
+          name: "git-gateway",
+          local_backend: true // <--- This forces the local mode
+        },
+        media_folder: "images",
+        public_folder: "/images",
+        collections: [
+          {
+            name: "getting_started",
+            label: "Getting Started",
+            folder: "content/getting-started",
+            create: true,
+            fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Body", name: "body", widget: "markdown"}
+            ]
+          },
+          {
+            name: "modules",
+            label: "Modules",
+            folder: "content/modules",
+            create: true,
+            fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Body", name: "body", widget: "markdown"}
+            ]
+          }
+        ]
+      }
+    });
+  </script>
+</body>
+</html>
