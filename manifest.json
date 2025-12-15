@@ -296,6 +296,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/posts/mynewpost.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/posts/mynewpost.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
